@@ -1,0 +1,13 @@
+thread = 3
+logger = nil
+logpath = "."
+harbor = 0
+address = "127.0.0.1:2526"
+master = "127.0.0.1:2013"
+start = "main"	-- main script
+bootstrap = "snlua bootstrap"	-- The service for bootstrap
+cpath = "./cservice/?.so"
+luaservice = "../lotterysvr/?.lua;./service/?.lua;"
+lua_path = "./lualib/?.lua;../lotterysvr/?.lua;../json/?.lua;../global_tools/?.lua;"
+lua_cpath = "./cservice/?.so;./luaclib/?.so;"
+
